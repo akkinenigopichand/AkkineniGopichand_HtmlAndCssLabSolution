@@ -1,0 +1,64 @@
+body {
+    height: auto;
+    margin: 0%;
+}
+
+header h1 {
+    background-color: red;
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+}
+
+#navigate {
+    position: sticky;
+    
+}
+
+.menu {
+    margin: 0%;
+    background-color: grey;
+}
+
+.menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu li:hover {
+    background-color: black;
+    ;
+}
+
+.menu>li:hover .Dropdown {
+    display: block;
+}
+
+.Dropdown {
+    position: absolute;
+    width: auto;
+    max-width: 150px;
+    display: none;
+    top: 42.5px;
+    background-color:lightgrey;
+    padding: 0%;
+}
+
+.Dropdown li {
+    display: block;
+}
+
+.Dropdown li:hover {
+    background-color:darkgray;
+}
+
+.Dropdown li a {
+    color: blue;
+    font-size: 16px;
+}

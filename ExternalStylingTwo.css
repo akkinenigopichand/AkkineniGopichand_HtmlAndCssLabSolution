@@ -1,0 +1,92 @@
+.Bar_graph{
+    background-color: lightgray;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+p{
+    padding-left: 20px;
+}
+
+div{
+    width: 40px;
+    height: 300px;
+    margin: 20px;
+    background-color: darkgray;
+}
+
+article{
+    display: inline-block;
+}
+
+.one {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    animation-name: first;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes first {
+    from {
+        height:100%;
+    }
+
+    to {
+        height: 70%;
+    }
+
+}
+
+.two {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    animation-name: second;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes second {
+    from {
+        height: 100%;
+
+    }
+
+    to {
+        height: 60%;
+
+    }
+
+}
+
+.three {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    animation-name: three;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes three {
+    from {
+        height: 100%;
+
+    }
+
+    to {
+        height: 20%;
+ ;
+    }
+
+}
